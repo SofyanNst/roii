@@ -1,47 +1,91 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-darkblue {
+    background-color: #00437D;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 13px;
+}
+
 .contact-content {
     background-color: #004E92;
     height: 36px;
 }
 
 .navbar-content {
-    background-color: #00437D;
+    /* background-color: #00437D; */
     height: 100px;
 }
 
 .cover-content {
-    background-color: #1979cc;
+    /* background-color: #1979cc; */
+    height: 490px;
+}
+
+.cover {
+    background-image: url('assets/cover.png');
+    background-size: cover;
     height: 490px;
 }
 
 .feature-content {
     background-color: #fff;
-    height: 130px;
+    height: 150px;
     margin-top: -50px;
 }
 
 .feature-content-1 {
     background-color: #F06110;
-    height: 130px;
+    height: 150px;
 }
+
+.feature-content-item {
+    margin-top: 20px;
+}
+
+.feature-content-item-2 {
+    margin-top: 32px;
+}
+
 
 .feature-content-2 {
     background-color: #D9CF26;
-    height: 130px;
+    height: 150px;
+}
+
+.feature-left-2 {
+    margin-top: 43px;
+    /* margin-left: 2px; */
+}
+
+.feature-right-2 {
+    margin-top: 56px;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 .feature-content-3 {
     background-color: #80BD43;
-    height: 130px;
+    height: 150px;
 }
 
 .feature-content-4 {
     background-color: #5F7BF2;
-    height: 130px;
+    height: 150px;
 }
 
 .feature-content-5 {
     background-color: #A0814B;
-    height: 130px;
+    height: 150px;
 }
 
 .about-content {
@@ -51,19 +95,44 @@
 }
 
 .about-content-left {
-    background-color: #1D6491;
+    /* background-color: #1D6491; */
     height: 473px;
 }
 
+.about-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #00437D;
+}
+
+.about-body {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 46px;
+}
+
 .about-content-right {
-    background-color: #668EA9;
+    /* background-color: #668EA9; */
     height: 473px;
 }
 
 .visi-content {
-    background-color: rgba(38, 38, 38, 0.8);
+    /* background-color: rgba(38, 38, 38, 0.8); */
+    background-image: url('assets/visi-pic.png');
+    background-size: cover;
     height: 342px;
     margin-top: 85px;
+}
+
+.visi-title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 38px;
+}
+
+.visi-body {
+    font-size: 36px;
+    margin-top: 39px;
 }
 
 .misi-content {
@@ -72,22 +141,32 @@
 }
 
 .misi-content-left {
-    background-color: #1D6491;
-    height: 1090px;
+    /* background-color: #1D6491; */
+    height: 1000px;
 }
 
 .misi-content-right {
-    background-color: #668EA9;
-    height: 1090px;
+    /* background-color: #668EA9; */
+    height: 1000px;
+}
+
+.misi-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #00437D;
+}
+
+.misi-content {
+    line-height: 35px;
+    text-align: justify;
+}
+
+.footer-line {
+    background-color: #F06110;
+    height: 10px;
 }
 
 .footer {
     background-color: #00437D;
-    margin-top: 85px;
-    height: 90px;
+    height: 80px;
 }
-
-/* .footer-up {
-    background-color: #F06110;
-    height: 12px;
-} */
