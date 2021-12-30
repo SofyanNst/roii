@@ -158,18 +158,18 @@ body {
 }
 
 .misi-content {
-    height: 1090px;
+    /* height: 1090px; */
     margin-top: 85px;
 }
 
 .misi-content-left {
     /* background-color: #1D6491; */
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 .misi-content-right {
     /* background-color: #668EA9; */
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 .misi-title {
