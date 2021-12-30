@@ -37,12 +37,12 @@ body {
 
 .cover-content {
     /* background-color: #1979cc; */
-    background-color: #00437D;
+    /* background-color: #00437D; */
     height: 490px;
 }
 
 .cover {
-    /* background-image: url('assets/cover.png'); */
+    background-image: url('assets/cover.png');
     background-size: cover;
     height: 490px;
 }
