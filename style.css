@@ -1,3 +1,12 @@
+/* BREAKPOINT */
+
+/* @media (max-width: 575.98px) {
+    .feature-content {
+        margin-top: 100px;
+    }
+} */
+
+/* END BREAK POINT */
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,11 +37,12 @@ body {
 
 .cover-content {
     /* background-color: #1979cc; */
+    background-color: #00437D;
     height: 490px;
 }
 
 .cover {
-    background-image: url('assets/cover.png');
+    /* background-image: url('assets/cover.png'); */
     background-size: cover;
     height: 490px;
 }
@@ -43,7 +53,7 @@ body {
 }
 
 .garis {
-    width: 650px;
+    /* width: 650px; */
     border: 3px solid #D9CF26;
     margin-bottom: 20px;
 }
@@ -180,4 +190,16 @@ body {
 .footer {
     background-color: #00437D;
     height: 80px;
+}
+
+.header {
+    background-image: url('assets/header-history.png');
+    background-size: cover;
+    height: 274px;
+}
+
+.title-header {
+    margin: 110px;
+    font-weight: 700;
+    font-size: 50px;
 }
