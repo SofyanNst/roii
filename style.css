@@ -190,7 +190,7 @@ body {
 
 .footer {
     background-color: #00437D;
-    height: 80px;
+    height: 60px;
 }
 
 .header {
@@ -203,4 +203,14 @@ body {
     margin: 110px;
     font-weight: 700;
     font-size: 50px;
+}
+
+.sub-title {
+    font-weight: 700;
+    color: #00437D;
+}
+
+.about-us-content {
+    line-height: 30px;
+    text-align: justify;
 }
