@@ -234,35 +234,35 @@ body {
         margin-top: 10px;
         border-radius: 20px;
         width: 340px;
-        margin-left: 21px;
+        margin-left: 23px;
     }
 
     .feature-content-2 {
         margin-top: 10px;
         border-radius: 20px;
         width: 340px;
-        margin-left: 21px;
+        margin-left: 23px;
     }
 
     .feature-content-3 {
         margin-top: 10px;
         border-radius: 20px;
         width: 340px;
-        margin-left: 21px;
+        margin-left: 23px;
     }
 
     .feature-content-4 {
         margin-top: 10px;
         border-radius: 20px;
         width: 340px;
-        margin-left: 21px;
+        margin-left: 23px;
     }
 
     .feature-content-5 {
         margin-top: 10px;
         border-radius: 20px;
         width: 340px;
-        margin-left: 21px;
+        margin-left: 23px;
     }
 
     .about-content {
@@ -294,6 +294,7 @@ body {
 
     .picture-about img {
         margin-top: 0px;
+        border-radius: 15px;
     }
 
     .visi-body {
