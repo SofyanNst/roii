@@ -39,7 +39,7 @@ body {
     background-image: url('assets/cover.png');
     background-size: cover;
     /* background-color: #1979cc; */
-    background-color: #00437D;
+    /* background-color: #00437D; */
     /* height: 490px; */
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .feature-content {
-    background-color: #fff;
+    /* background-color: #fff; */
     height: 24vh;
     margin-top: -50px;
 }
@@ -120,9 +120,9 @@ body {
     height: 473px;
 }
 
-.about-title {
+.title-about {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 26px;
     color: #00437D;
 }
 
@@ -160,16 +160,6 @@ body {
 .misi-content {
     /* height: 1090px; */
     margin-top: 85px;
-}
-
-.misi-content-left {
-    /* background-color: #1D6491; */
-    /* height: 1000px; */
-}
-
-.misi-content-right {
-    /* background-color: #668EA9; */
-    /* height: 1000px; */
 }
 
 .misi-title {
@@ -213,4 +203,104 @@ body {
 .about-us-content {
     line-height: 30px;
     text-align: justify;
+}
+
+@media (max-width: 575.98px) {
+
+    body {
+        background-color: #EBEBEB;
+    }
+
+    .contact {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .cover p {
+        font-size: 14px;
+    }
+
+    .cover h1 {
+        font-size: 30px;
+    }
+
+    .feature-content-item img {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .feature-content-1 {
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 340px;
+        margin-left: 18px;
+    }
+
+    .feature-content-2 {
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 340px;
+        margin-left: 18px;
+    }
+
+    .feature-content-3 {
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 340px;
+        margin-left: 18px;
+    }
+
+    .feature-content-4 {
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 340px;
+        margin-left: 18px;
+    }
+
+    .feature-content-5 {
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 340px;
+        margin-left: 18px;
+    }
+
+    .about-content {
+        margin-top: 700px;
+        background-color: #fff;
+        border-radius: 60px;
+        width: 355px;
+    }
+
+    .title-about svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title-about {
+        font-size: 20px;
+    }
+
+    .about-body {
+        font-size: 12px;
+        line-height: 5vh;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        font-size: 12px;
+    }
+
+    .visi-body {
+        font-size: 26px;
+        margin-top: 25px;
+    }
+
+    .misi-content {
+        margin-top: -200px;
+    }
+
+    .misi-content {
+        margin-top: 30px;
+    }
 }
